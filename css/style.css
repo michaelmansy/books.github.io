@@ -208,3 +208,71 @@ header .container button{
 .numbers .rect p{
     font-family: var(--Patua);
 }
+
+
+/* PURCHASE DIV */
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Lobster);
+    text-transform: capitalize;
+}
+
+.purchase>p{
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div{
+    padding: 5px;
+    margin: 5px;
+}
+
+.cards .title{
+    background: rgba(208, 241, 230, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing{
+    background: rgba(208, 241, 230, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+
+
+/* SECTION 3 - PLATFORM*/
+
+
+
+/*  */
+@media screen and (max-width: 768px) {
+    #section-1{
+        overflow: hidden;
+        height: 600px;
+        padding-left: 10px;
+    }
+    #section-1 .pray img{
+        display: none;
+    }
+    #section-1 .panel{
+        position: absolute;
+        right: -50px;
+    }
+  }
