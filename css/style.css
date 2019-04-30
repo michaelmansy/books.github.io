@@ -294,6 +294,45 @@ header .container button{
 }
 
 
+/* SECTION 4 - MEMBERS */
+#section-4 h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+#section-4 .team{
+    padding: 10vmin 4vmin;
+}
+
+#section-4 .card{
+    width: 22rem;
+    height: 30rem;
+    margin-top: 10vmin;
+}
+
+#section-4 .card img{
+    height: 13rem;
+}
+
+#section-4 .card .card-text{
+    padding: 0.5em;
+}
+
+#section-4 .card .card-body a{
+    font-size: 1.5em;
+    color: darkblue;
+}
+
+#section-4 .carousel-item{
+    padding-left: 3rem;
+}
+
+.border-radius{
+    border-radius: 340px;
+    width: 60%;
+}
+
+
 
 /*  */
 @media screen and (max-width: 768px) {
