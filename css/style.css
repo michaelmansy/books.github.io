@@ -17,7 +17,7 @@ header, section{
     --Lobster: "Lobster", cursive;
     --light-black: #2e2c2caf;
     --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-    --bgggradient: linear-gradient(to bottom, gold, red);
+    --bgggradient: linear-gradient(to top, gold, red);
     --light-gray: rgba(255,255,255,0.877);
 }
 
@@ -258,6 +258,40 @@ header .container button{
 
 
 /* SECTION 3 - PLATFORM*/
+#section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bggradient);
+}
+
+#section-3 .download h1{
+    padding: 2em 0 0.3em 0;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+#section-3 .download p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+
+#section-3 .desktop{
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+#sectio-3 .desktop h3{
+    font-size: 4vmin;
+}
+
+#sectio-3 .desktop p{
+    font-size: 2vmin;
+}
 
 
 
