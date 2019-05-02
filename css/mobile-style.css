@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px){
+    header .navbar-brand i{
+        position: absolute;
+        top: 10px;
+    }
+
+    #section-1 .panel{
+        position: initial;
+        height: initial;
+    }
+
+    #section-2 .cover{
+        background-position: -37vmin -10vmin;
+    }
+
+    #section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        /* padding: 2vmin; */
+    }
+
+    #section-4 .carousel-inner{
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    #section-3{
+        /* overflow-y: hidden; */
+    }
+
+    .platform{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer h4{
+        padding-top: 5vmin; 
+    }
+}
+
+@media only screen and (max-width: 320px){
+    #section-4 .card{
+        width: 18rem;
+    }
+
+    #section-4 .carousel-inner{
+        margin-left: -14vmin;
+    }
+}
