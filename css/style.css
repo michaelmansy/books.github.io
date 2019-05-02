@@ -365,6 +365,14 @@ footer .column i+i{
 }
 
 
-
+/* STICKY NAVBAR */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.715);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
 
  

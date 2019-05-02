@@ -41,6 +41,10 @@
 }
 
 @media only screen and (max-width: 320px){
+     #section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+
     #section-4 .card{
         width: 18rem;
     }
